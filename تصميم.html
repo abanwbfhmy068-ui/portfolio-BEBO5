@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body{height: 6000px;}
+body{margin: 0px;padding: 0px;
+    background-image: linear-gradient(to left,rgb(253, 1, 1),rgba(224, 15, 161, 0.811));
+
+}
+div{height: 100px;
+display: flex;  
+justify-content: center;
+padding-top: 200px;
+}
+
+input{
+      height: 30px;
+    width: 50vh;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 20px;
+}
+input:hover{
+ 
+    background-color: red;
+}
+input::placeholder{
+    color: white;
+ text-align: end;
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: brown;
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+}
+
+</style>
+<div>
+    <form action="صفحه1.html">
+<input type="text" placeholder="اكتب اسمك" name="name" required>
+<br>
+<br>
+<input type="text" placeholder="اكتب اسم العائله" name="name" required>
+<br>
+<br>
+<input type="email" placeholder="البريد الالكتروني" name="email" required>
+<br>
+<br>
+<input type="password" placeholder="الرقم السري" name="password" required minlength="6">
+<br>
+<br>
+<button type="submit">تسجيل الدخول</button>
+    </form>
+    </div>
+</body>
+</html>
